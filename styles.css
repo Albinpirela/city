@@ -8,6 +8,7 @@ body {
   --building-color1: #aa80ff;
   --building-color2: #6c9;
   --building-color3: #c69;
+  --building-color4: #538cc6;
 }
 
 * {
@@ -76,4 +77,5 @@ body {
 .bb4 {
   width: 11%;
   height: 58%;
+  background-color: var(--building-color4);
 }
