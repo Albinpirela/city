@@ -9,6 +9,7 @@ body {
   --building-color2: #6c9;
   --building-color3: #c69;
   --building-color4: #538cc6;
+  --window-color1: black;
 }
 
 * {
@@ -105,12 +106,16 @@ body {
   width: 8%;
   height: 45%;
   background-color: var(--building-color1);
+  position: relative;
+  left: 10%;
 }
 
 .fb5 {
   width: 10%;
   height: 33%;
   background-color: var(--building-color2);
+  position: relative;
+  right: 10%;
 }
 
 .fb6 {
