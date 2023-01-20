@@ -10,8 +10,7 @@ body {
   --building-color3: #c69;
   --building-color4: #538cc6;
   --window-color1: black;
-  <<<<<<< HEAD=======--window-color2: #8cd9b3;
-  >>>>>>>feature-b
+  --window-color2: #8cd9b3;
 }
 
 * {
@@ -46,14 +45,7 @@ body {
 
 .bb1a {
   width: 70%;
-  <<<<<<< HEAD background-color: var(--building-color1);
-  =======
-}
-
-.bb1-window {
-  height: 10%;
-  background: linear-gradient(var(--building-color1), var(--window-color1));
-  >>>>>>>feature-b
+  background-color: var(--building-color1);
 }
 
 .bb1-window {
@@ -72,7 +64,7 @@ body {
 .bb1d {
   width: 100%;
   height: 70%;
-  background: linear-gradient(var(--building-color1)50%, var(--window-color1));
+  background: linear-gradient(var(--building-color1) 50%, var(--window-color1));
 }
 
 .bb2 {
